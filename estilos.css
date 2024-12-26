@@ -1,19 +1,51 @@
 .container{
-    margin: 5px 5px 5px 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0px 20px 10px 20px;
+    border: black 1px solid;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border: 1px black solid;
     display: flex;
+    position: relative;
 }
 
-h1{
-    color:red;
-    background-color: blue;
+.nav{
+    list-style: none;
+    display: flex;
+    width: 80%;
 }
 
-a:hover{
-    background-color: red;
-    border-color: black;
-    border-radius: 25px;
-    width: 500px;
-    
+.anav{
+    list-style: none;
+    width: 5px;
+    border: 1px black solid;
+}
+
+.login{
+    width: auto;
+    margin-left: auto;
+}
+
+li{
+    min-width: 150px;
+    margin: 0px 5px 0px 5px;
+    min-height: auto;
+    text-align: center;
+    background: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+li:hover{
+    background: gray;
+}
+
+a{
+    text-decoration: none;
+}
+
+.aside {
+    width: 25%;
+    display: flex;
 }
